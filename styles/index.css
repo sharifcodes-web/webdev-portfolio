@@ -118,11 +118,14 @@ nav ul li a{
         
     }
 
-    /* main styles */
-    main{
+ /* main styles */
+main{
         max-width:1140px ;
         margin: 0 auto;
-    }
+}
+main{
+    margin-top: 130px;
+}
 
 
     /* About styles */
@@ -131,7 +134,7 @@ nav ul li a{
     border-radius:10px ;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+   
 }
 .about-items{
     display: flex;
@@ -140,4 +143,32 @@ nav ul li a{
 
 .item-description{
     font-weight: 600;
+}
+
+
+/* skills section */
+.skill-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 130px;
+    
+}
+.skill-descrition{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin: 0 345px 0 0;
+} 
+.skill{
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+    margin: aut;
+}
+.skill> div{
+      box-shadow: 0 6px 50px 0 rgba(203, 199, 199, 0.502);
+      padding: 30px;
+      border-radius: 5px;
+
 }
