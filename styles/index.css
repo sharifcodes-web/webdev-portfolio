@@ -14,7 +14,9 @@ header{
     background-position: top left,bottom right;
 }
   /* All Shared items */
-
+  .secondary-bg{
+    background-color: #FFF8F3;
+}
   /* Shared btn */
 .btn-parimary{
     background-color: hsl(25, 98%, 52%);
@@ -30,6 +32,30 @@ header{
 /* shared color */
 .text-primary{
     color: #FD6E0A;
+}
+
+/* shared text color */
+.dark-1{
+        color: #181818;
+    }
+
+.dark-2{
+    color: #474747;
+}
+
+.dark-3{
+        color: #757575;
+    }
+/* shared section */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-descrition{
+    font-size: 18px;
+    /* font-weight: bold; */
+    color: #757575;
 }
 
 /* nav style */
@@ -60,9 +86,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
 }
-.dark-2{
-    color: #474747;
-}
+
 
 /* banner styes */
     .banner{
@@ -82,18 +106,38 @@ nav ul li a{
         font-size: 85px;
         font-weight: bold;
     }
-    .dark-1{
-        color: #181818;
-    }
+    
     .banner-description{
         font-size: 18px;
         font-weight:regular ;
     }
-    .dark-3{
-        color: #757575;
-    }
+    
 
     .banner-profie-pic{
         width: 580px;
         
     }
+
+    /* main styles */
+    main{
+        max-width:1140px ;
+        margin: 0 auto;
+    }
+
+
+    /* About styles */
+
+.About{
+    border-radius:10px ;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 600;
+}
